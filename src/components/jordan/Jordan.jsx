@@ -2,7 +2,7 @@ import { OrbitControls, Stage, useGLTF } from "@react-three/drei";
 import { useEffect } from "react";
 
 export default function Jordan({ color }) {
-  const model = useGLTF("../../src/assets/shoe/air_jordan_1.glb");
+  const model = useGLTF("/shoe/air_jordan_1.glb");
 
   useEffect(() => {
     if (model.scene) {
