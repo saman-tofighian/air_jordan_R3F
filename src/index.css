@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  overflow: hidden;
+}
+
+.btn {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.btn > button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  margin-right: 5px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.btn > button:nth-child(1) {
+  background: red;
+}
+.btn > button:nth-child(2) {
+  background: #28d;
+}
+.btn > button:nth-child(3) {
+  background: green;
+}
+.btn > button:nth-child(4) {
+  background: purple;
+}
